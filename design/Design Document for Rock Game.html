@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0087)http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm?p=1 -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><meta charset="ISO-8859-1"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="ROBOTS" content="NOODP">
+<meta name="pd" content="Tuesday, 12-Feb-2013 21:04:39 UTC">
+<link rel="canonical" href="http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm"><link rel="icon" href="http://0.tqn.com/f/a08.ico">
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://0.tqn.com/4g/o/os.xml" title="About.com">
+
+		<script>var ziRfw=0;zobt="More C / C++ / C# Ads";zOBT=" Ads";function zIpSS(u){zpu(0,u,280,375,"ssWin")}function zIlb(l,t,f){zT(l,'18/1Pp/wX')}function rsi(i,h,w){if(gEI(i)){if(h)gEI(i).height=h;if(w)gEI(i).width=w}}</script><link rel="stylesheet" href="http://0.tqn.com/0g/dc/s145.css" media="all"><link rel="stylesheet" href="./Design Document for Rock Game_files/rdp.css" type="text/css" media="all"><!--[if lt IE 8]><link rel="stylesheet" href="http://0.tqn.com/8g/dc/rdie.css" type="text/css" media="all"><![endif]-->
+<meta http-equiv="pics-Label" content="(pics-1.1 &quot;http://www.icra.org/pics/vocabularyv03/&quot; l gen true for &quot;http://cplus.about.com&quot; r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0) gen true for &quot;http://cplus.about.com&quot; r (n 0 s 0 v 0 l 0 oa 0 ob 0 oc 0 od 0 oe 0 of 0 og 0 oh 0 c 0))">
+<meta property="og:title" content="Explaining how the Rock Game will work"><meta property="og:type" content="article"><meta property="og:image" content="http://0.tqn.com/d/cplus/1/G/-/K/-/-/rock.gif"><meta property="og:url" content="http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm?p=1"><meta property="og:site_name" content="About.com C / C++ / C#"><meta property="fb:app_id" content="121030274606741">
+<script>zWASL=1;zGRH=1;var zSBT='Ads'</script>
+<style>.gB{line-height:1.5}.tr #oF{margin:0;color:#666}#abc #sidebar,#abc .sb{margin-top:.5em}#tt26 .entry .gB p{margin:0}@media screen and (-webkit-min-device-pixel-ratio:0){#abc #sidebar,#abc #sb1.sb,#abc #sb2.sb{margin-top:1.5em}#tt0 #abc #sidebar{margin-top:.5em}}#abw .gB .u,#abw .gB .u:hover{display:block}</style>
+
+<title>Design Document for Rock Game</title><meta name="keywords" content="design,tutorial,rock"><meta name="description" content="Design Document for Rock Game, explaining how the design will work"><link rel="stylesheet" href="./Design Document for Rock Game_files/rdp.css" type="text/css" media="all"></head>
+
+<body id="tt2" class="gt4 compute nd" "="">
+
+<script language="JavaScript">
+<!--
+zGOW=0;xd=0;zap="";zAth='20620';zAthG='20620';zTt='2';zir='';zBTS=1;zBT=1;zCT=0;zSt='';zGz='g'
+ch='compute';gs='cplus';xg="C / C++ / C#";zcs=''
+zFDT='2'
+zFST='1'
+zKwR=''
+zOr='D2KHTm0iTrTrEoqD';zTbO=zRQO=1;zp0=zp1=zp2=zp3=zfs=0;zDc=1;
+zSm=zSu=zhc=zpb=zgs=zdn='';zFS='D2K1D2J2D2510D20430D00403';zFD='D2K1D2J2D261D2510D20540D00504'
+zDO=zis=1;zpid=zi=zRf=ztp=zpo=0;zdx=20;zfx=100;zJs=13;
+zst336280=3;;zst72890=2;;zi=1;zz=';160600=2-1-1299;336280=2-1-1299;72890=2-1-1299;336155=2-1-12-1;93048=2-1-12-1;30050=2-1-12-1';zx='3-1-1399';zde=15;zdp=1440;zds=1440;zfp=0;zfs=66;zfd=100;zdd=20;zaX=new Array(11, new Array(100,504,8197,6,'342,210'),7, new Array(100,284,8196,13,'342,400'));zDc=1;;zDO=1;;zhc='';;zGTH=1;
+zGo=0;zG=17;zTac=2;zDot=0;
+zObT="C/ C++";zRad=5;var tp=" primedia_"+(zBT?"":"non_")+"site_targeting";if(!this.zGCID)zGCID=tp
+else zGCID+=tp;
+if(zBT>0){zOBR=1}
+zap=this.zap?"p=0;"+zap:"p=0;";if(!this.uy)uy='about.com';if(typeof document.domain!="undefined")document.domain=uy;//-->
+</script>
+<script language="JavaScript" src="./Design Document for Rock Game_files/cj018x1t6e5.js"></script>
+<script>function zob(p){if(!this.zOfs)return;var a=zOfs,t,i=0,l=a.length;if(l){w('<div id="oF"><b>'+(this.zobt?zobt:xg+' Ads')+'</b><ul>');while((i<l)&&i<zRad){t=a[i++].line1;w('<li><a href="/z/js/o'+(p?p:'')+'.htm?k='+zUriS(t.toLowerCase())+(this.zobr?zobr:'')+'&d='+zUriS(t)+'&r='+zUriS(zWl)+'" target="_'+(this.zOBNW?'new'+zr(9999):'top')+'">'+t+'</a></li>');}w('</ul></div>')}}function rb600(){if(gEI('bb'))gEI('bb').height=600}</script><noscript>&lt;meta http-equiv=refresh content="0;url=http://www.about.com/snf.htm?u=http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm?p=1%3Frd%3D1"&gt;</noscript>
+
+<script>function zSae(n,d,i,u,t,r,b){var f=this.zGRH,x=xf+x1,y=x1+'>';w('<p onMouseOver="return zhl(1,'+n+')" onMouseOut="zhl(0)">'+x2+u+(f?x1+qf+'"t':'')+'" lnp="'+n+x3+d+x4+(f?t+'</a>'+x2+u+x1+qf+'"u" lnp="'+n+x3+d+x4+r:x+'t'+y+t+xh+x+'d'+y+d+xh+x+'u'+y+r+xh)+'</a>'+x+'d'+y+d+xh+'</p>')};z160=zpreC(160,600);z336=zpreC(336,280);z728=zpreC(728,90);z155=zpreC(336,155);zItw=160</script>
+	
+	
+	
+	
+	
+	
+			
+				<div id="abw">
+<div id="abh">
+<div class="ma"><div class="lg"><a href="http://www.about.com/" zt="18/1Yb/Zv"><img src="./Design Document for Rock Game_files/a154.png" alt="About.com"></a></div><div class="h2"><a href="http://cplus.about.com/" zt="18/1Yc/Zx" title="C / C++ / C#">C / C++ / C#</a></div></div>
+</div>
+<div id="abb">
+<div id="abt">	<h1>		<span class="fn">							Explaining how the Rock Game will&nbsp;work					</span>	</h1>			<h2>Rock Design&nbsp;Document</h2>						<p id="by">							By <a href="http://cplus.about.com/bio/David-Bolton-20620.htm" rel="author">David Bolton</a>, About.com Guide</p>			<p></p>		</div>
+<div id="abm"><div id="abc">
+
+  
+  
+    <div id="mimg" class="imgw">
+	  
+      <q><img class="photo" src="./Design Document for Rock Game_files/rock.gif" alt="Rock Game Image"></q>
+		
+			  
+			  
+		
+      
+      
+    </div>
+  
+
+
+<div id="articlebody">
+
+<!--gc--><p>Rock is a new game in the game tutorials and is a match three type game (like Bejewelled Blitz, Puzzle Quest etc) themed about a dungeon crawl. Ie every game of Rock is a challenge to see how many levels you can complete before running out of "steam". </p>
+
+<p>This will be the first game to be programmed in C#.  </p>
+
+<ul><li>Want to learn C# Programming? Try our free <a href="http://cplus.about.com/od/learnc/Learn_how_to_Program_in_C.htm" title="Link to Free C# Programming Tutorials">C# Programming Tutorials</a><sup>1</sup></li></ul>
+
+<h3>What is a Match Three Game?</h3>
+<p>Built usually on an 8 x 8 grid (though no reason why it has to be), the game plays like a typical match three game where you drag a symbol on to another next to it to form three or more symbols in a line.</p>
+
+<p>The grid is full of several types of symbol. Usually there are 4 or 5 different symbols in play. It looks a bit like this where I've used 1-5 as symbols.</p>
+
+<code>
+12345123<br>
+23451234<br>
+34512345<br>
+11223344<br>
+55123451<br>
+23451234<br>
+51234512<br>
+34512345<br>
+</code>
+
+<p>Nowhere in there are there three symbols the same vertically or diagonally but there are a few places where by swapping two adjacent symbols, a block of three can be achieved. On the 4th row, swap the leftmost 2 with the 1 beneath it.</p>
+
+<code>
+11223344<br>
+55123451<br>
+</code>
+
+<p>So it becomes:</p>
+
+<code>
+11123344<br>
+55223451<br>
+</code>
+
+<p>At that point the three 1s are removed and all three columns above move down 1 and three new random values are introduced above. Moving the columns might make three (or more) values appear next to each other.</p>
+
+<code>
+abc45123<br>
+12351234<br>
+23412345<br>
+34523344<br>
+...
+</code>
+
+<p>Though in this case it didn't. abc shows where the new three appear.</p>
+
+<p>If you look closely at the 2nd and 3rd rows there are now two ways to move the rightmost 4, either swap it with the three to the left on the 2nd row or swap it with the 5 to the right on the third row to form three vertical 4s. </p>
+
+<p>So that is the basic Match 3 mechanism. If you are lucky, sometimes 4 or 5 can be matched in one go. Five is almost the longest, to get six you would need a very rare combination of symbols lined up like aa..aa and complete two vertical sets that drop another aa in the gap (Thanks Ryan!) If you do get a six then the level is cleared immediately. Talk about a critical hit!</p>
+
+<p>To make the game more interesting there are lots of things that can be done. Here are three:</p>
+
+<ul>
+<li>Play against the clock. Highest score in a minute/. Eg Bejewelled Blitz.</li>
+<li>Earn rewards that you use in some way. Eg the iOS game Ten Million.</li>
+<li>Build it into a larger game as a way say of resolving combat. E.g. Puzzle Quest</li>
+</ul>
+
+<h3>Dungeon Crawler?</h3>
+<p>Rogue and other games of the same ilk are dungeon crawlers. Your character starts and has to progress through a series of levels fighting monsters and acquiring magic items.</p>
+
+<p>For Rock, these provide the theme for the game. As luck would have it, the game image files for Warlords II (by SSG), a favourite of mine in the 90s, are available free from <a href="http://www.freegameempire.com/games/Warlords-2-Deluxe" zt="-o1/XJ" target="_blank" title="Link to FreeGame Empire Warlords 2 Deluxe page">FreeGame Empire</a><sup>2</sup>. They are in PCX format but that's not an issue as I can convert them to .gif or .png so I can use them in the game.</p>
+
+<p>Note, I used <a href="http://www.irfanview.com/" zt="-o1/XJ" target="_blank" title="Link to Irfanview.com">Irfanview</a><sup>3</sup> to convert the .pcx files to .png. There aren't many applications that can handle .pcx; Irfanview is highly recommended.</p>
+
+<h3>How to make subsequent "levels" harder?</h3>
+<p>Here's how I see the game play going. At level 1 there are four monster types, some dungeon cave symbol types and some treasure types. Matching a type gives a particular reward:</p>
+
+<ul>
+<li>Monster type. There are only so many monsters per level. Once a certain number have been matched the level is complete. These also give mana.</li>
+<li>Treasure types. These add points to your score. </li>
+<li>Dungeon/cave types.   These add points and time. </li>
+</ul>
+
+<p>Note the time requirement. To give the game an edge, there is a clock that counts down. It starts at 60 seconds and matching dungeon/cave types adds extra time. If the clock reaches 0 it's game over man.  Each monster matched adds a little time as well and matching four or five of anything gives a 30 or 60 second bonus.</p>
+
+<p>At higher levels there are more monster types thus making it harder to find a match. If the board reaches a no matches left then all symbols are removed from the board, added back to the symbol sets for the level and the board refilled from scratch.</p> 
+
+<h3>Spells</h3>
+<p>Mana is earned by killing monsters and is used to power spells. When a monster match occurs the monsters are removed and one treasure left in their place, leaving two or more blanks. </p>
+
+<p>There are four spells, though if better ones occur, I'll add them. Game design isn't an exact science; sometimes an idea improvement will occur during gameplay.</p>
+
+<ul>
+<li>Add time.</li>
+<li>Zapp! 5 Mana. Removes all symbols in one column.</li>
+<li>Bang. 25 Mana. Destroys a symbol and all those immediately around it.</li>
+<li>Death. 590 Mana. It removes all symbols of one monster type on the board.</li>
+</ul>
+
+<p>When symbols are destroyed the refill mechanism replaces the blank tiles. Refill moves all symbols above an empty space down by one then adds in random symbols in the first row to replace any blanks. It then checks if there are any new matches created by this and processes those. This continues until there are no blank tiles.</p>
+
+<h3>Implementation</h3>
+<p>I'm going to create thus using SDL.NET, see <a href="http://cplus.about.com/od/programminggames/a/sdl-net-games-programming-tutorial-1.htm" title="Link to Creating games with SDL.NET tutorial">Programming games in C# using SDL.NET</a><sup>4</sup>.</p>
+
+<ul><li>Here are some more <a href="http://cplus.about.com/od/programminggames/All_about_Games_Programming.htm" title="Link to Game Programming Tutorials">Game Programming tutorials</a><sup>5</sup>.</li></ul><!--/gc-->
+</div><div id="pd"><p>This About.com page has been optimized for print. To view this page in its original form, please visit: <a href="http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm">http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm</a></p><p id="cpyrt">©2013 About.com, Inc. All rights reserved.</p></div><div id="linklist"><hr><h3>Links in this article:</h3><ol><li>http://cplus.about.com/od/learnc/Learn_how_to_Program_in_C.htm</li><li>http://www.freegameempire.com/games/Warlords-2-Deluxe</li><li>http://www.irfanview.com/</li><li>http://cplus.about.com/od/programminggames/a/sdl-net-games-programming-tutorial-1.htm</li><li>http://cplus.about.com/od/programminggames/All_about_Games_Programming.htm</li></ol></div></div></div></div>
+
+
+<script type="text/javascript" src="./Design Document for Rock Game_files/m.js"></script>
+<script type="text/javascript" src="./Design Document for Rock Game_files/p.js"></script>
+<script type="text/javascript">makeFootnotes();</script>
+
+<script type="text/javascript">window.print();</script>
+<script>if(this.zKW&&gEI('sv'))gEI('sv').value=zE(zE(zKW,1),1).replace(new RegExp('\\+','g'),' ');
+zPxA[zPxC]=new Image();zPxA[zPxC++].src="http://b.scorecardresearch.com/p?c1=2&c2=6036459&c7=http%3a%2f%2fcplus%2eabout%2ecom%2fod%2fprogramminggames%2fa%2fhow%2dthe%2dRock%2dGame%2ddesign%2dwill%2dwork%2ehtm&c8=Explaining%20how%20the%20Rock%20Game%20will%26%23160%3bwork&c9=http%3a%2f%2fcplus%2eabout%2ecom%2fod%2fprogramminggames%2fa%2fhow%2dthe%2dRock%2dGame%2ddesign%2dwill%2dwork%2ehtm&cv=2.0&cj=1";adclose()
+</script>
+
+
+</div><div id="window-resizer-tooltip" style="display: block;"><a href="http://cplus.about.com/od/programminggames/a/how-the-Rock-Game-design-will-work.htm?p=1#" title="Edit settings" style="background-image: url(chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/images/icon_19.png);"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1680</span> x <span class="tooltipHeight" id="winHeight">1080</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1680</span> x <span class="tooltipHeight" id="vpHeight">941</span></div></body></html>
